@@ -1,4 +1,4 @@
-class fat < Formula
+class Fat < Formula
     desc "full text search with preview"
     homepage "https://github.com/jancschaefer/fat"
   
