@@ -12,6 +12,17 @@
 ## What is this?
 This is a simple tool wrapped around ag>fzf>bat that allows full text search in a specific path on the commandline, gives you a preview for files (and highlights) the correct location. On top, you can also open the file and jump to the correct line in visual studio code or TextMate.
 
+## Installation
+
+### Manual
+1. Simply take the ```fat``` file from this repository and add it to your path.
+
+### Homebrew
+```bash
+brew tap jancschaefer/fat
+brew install fat
+```
+
 ## Usage
 
 
