@@ -5,8 +5,8 @@ fatcode() {
     line=$(
         ag --nocolor "$1" |
             fzf --preview \
-                'bat --color always \
-        $(echo {} | cut -d: -f1) \
+                'bat --terminal-width 200 --color always \
+        "$(echo {}  | cut -d: -f1 )" \
         -H  $(echo {} | cut -d: -f2)  \
         -r  $((\
                 $((\

@@ -33,6 +33,3 @@ This is a simple tool wrapped around ag>fzf>bat that allows full text search in 
 ```bash
 fat <search term>
 ```
-
-## Known limitations
-- Preview and opening does not work with spaces in file names
