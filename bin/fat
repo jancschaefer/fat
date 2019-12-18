@@ -44,5 +44,4 @@ fatmate() {
     ) && mate $(cut -d':' -f1 <<<"$line") -l $(cut -d':' -f2 <<<"$line")
 }
 
-alias fat='fatcode'
-fat
+fatcode
