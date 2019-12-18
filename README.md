@@ -17,9 +17,10 @@ brew install fat
 
 ## What is this?
 
+Lets search for ```install``` in this repo.
 ![UsageVideo](http://www.schae.fr/uploads/fat_tutorial.gif)
 
-This is a simple tool wrapped around ag>fzf>bat that allows full text search in a specific path on the commandline, gives you a preview for files (and highlights) the correct location. On top, you can also open the file and jump to the correct line in visual studio code or TextMate.
+This is a simple tool wrapped around ag>fzf>bat that allows full text search in a specific path on the commandline, gives you a preview for files (and highlights) the correct location. On top, you can also open the file and jump to the correct line in visual studio code.
 
 ## Requirements
 - [AG](https://github.com/ggreer/the_silver_searcher)
