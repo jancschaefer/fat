@@ -4,8 +4,8 @@ fatcode() {
     local line
     line=$(
         ag --silent --nocolor --numbers --nobreak --nogroup --noheading --column "$1" | cut -d: -f1,2,3 |
-            fzf --preview \
-                'bat --terminal-width 200 --color always \
+            fzf --preview-window=right:65%:wrap --preview \
+                'bat --terminal-width ${$(($(tput cols) * 0.65 - 4))%.*} --color always \
         "$(echo {}  | cut -d: -f1 )" \
         -H  $(echo {} | cut -d: -f2)  \
         -r  $((\
