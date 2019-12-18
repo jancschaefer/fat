@@ -1,5 +1,5 @@
 # fat
-## **f**zf **a**g ba**t**
+**f**zf **a**g ba**t**
 
 - created by Jan Schäfer <jan@schae.fr>
 - related to https://dev.to/matsuikazuto/fzf--ag-fuzzy-grep-29d
