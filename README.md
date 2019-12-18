@@ -11,7 +11,7 @@
 
 ## What is this?
 
-![UsageVideo](https://media.giphy.com/media/Xg4jcRPHSoOLH6b4wi/giphy.gif)
+![UsageVideo](http://www.schae.fr/uploads/fat_tutorial.gif)
 
 This is a simple tool wrapped around ag>fzf>bat that allows full text search in a specific path on the commandline, gives you a preview for files (and highlights) the correct location. On top, you can also open the file and jump to the correct line in visual studio code or TextMate.
 
