@@ -3,7 +3,7 @@
 fatcode() {
     local line
     line=$(
-        ag --nocolor "$1" |
+        ag --silent --nocolor --numbers --nobreak --nogroup --noheading --column "$1" | cut -d: -f1,2,3 |
             fzf --preview \
                 'bat --terminal-width 200 --color always \
         "$(echo {}  | cut -d: -f1 )" \
@@ -19,7 +19,7 @@ fatcode() {
             )):$((\
                 $(echo {} | cut -d: -f2)+$(tput lines)/2-1\
             ))'
-    ) && code . -g $(cut -d':' -f1 <<<"$line"):$(cut -d':' -f2 <<<"$line")
+    ) && code . -g "$(cut -d':' -f1 <<<"$line")":$(cut -d':' -f2 <<<"$line"):$(cut -d':' -f3 <<<"$line")
 }
 
 fatmate() {
